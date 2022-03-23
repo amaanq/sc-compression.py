@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+sc_compression/sc_compression.py.egg-info/PKG-INFO
+sc_compression/sc_compression.py.egg-info/SOURCES.txt
+sc_compression/sc_compression.py.egg-info/dependency_links.txt
+sc_compression/sc_compression.py.egg-info/top_level.txt
