@@ -5,9 +5,9 @@ from typing import Optional
 class Signature(Enum):
     NONE = 1
     LZMA = 2  # starts with 5D 00 00 04
-    SC = 3  # starts with SC
+    SC   = 3  # starts with SC
     SCLZ = 4  # starts with SC and contains SCLZ
-    SIG = 5  # starts with Sig:
+    SIG  = 5  # starts with Sig:
 
 
 class ScCompression:
