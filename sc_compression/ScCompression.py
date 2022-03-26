@@ -60,7 +60,7 @@ class ScCompression:
 
     def _decompressLZMA(self) -> bytes:
         uncompressedSize = int.from_bytes(
-            self._buffer[5:9], "big", signed=True)
+            self._buffer[5:9], "little", signed=True)
         if uncompressedSize == -1:
             self._formattedbuffer = self._buffer[:9] + \
                 b"\xFF\xFF\xFF\xFF" + self._buffer[9:]  # pack a -1
